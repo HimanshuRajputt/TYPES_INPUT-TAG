@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types Form</title>
+</head>
+<body>
+    <h2>Form with Various Input Types</h2>
+    
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name">
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@example.com" required>
+        <br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+        <br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="10" max="100">
+        <br><br>
+        
+        <label for="favcolor">Favorite Color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+        <br><br>
+        
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website" placeholder="https://example.com">
+        <br><br>
+        
+        <label for="meeting-time">Meeting Time:</label>
+        <input type="time" id="meeting-time" name="meeting-time">
+        <br><br>
+        
+        <label for="volume">Set Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100">
+        <br><br>
+        
+        <label for="profile-pic">Upload Profile Picture:</label>
+        <input type="file" id="profile-pic" name="profile-pic">
+        <br><br>
+     
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
